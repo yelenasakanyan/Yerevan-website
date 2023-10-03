@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yerevan</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #FFEAFA;
+        }
+
+        .nav {
+            overflow: hidden;
+
+        }
+
+        .nav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+
+        .menu {
+            margin: auto;
+            width: 30%;
+        }
+
+        .eng_search {
+            float: right;
+        }
+
+        .nav a:hover {
+            background-color: #EE3190;
+            font-size: 20px;
+        }
+
+        .nav a.active {
+            background-color: #EE3190;
+
+        }
+
+        .herosection {
+            position: relative;
+            text-align: left;
+            color: #000000;
+        }
+
+        img {
+            width: 100%;
+            height: 600px;
+        }
+
+        .hero_text {
+            position: absolute;
+            top: 120px;
+            left: 80px;
+        }
+
+        .text_hero {
+            margin: 12px 12px;
+            bottom: 12px;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        #paragraph {
+            display: block;
+            margin: 6px 12px;
+            font-size: 16px;
+            font-weight: 100;
+            width: 40%;
+        }
+
+        .button_primary {
+            border: none;
+            border-radius: 8px;
+            color: #ffff;
+            background-color: #EE3190;
+            padding: 28px 60px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 500;
+            margin: 6px 12px;
+            cursor: pointer;
+        }
+
+        .button_primary:hover {
+            padding: 32px 66px;
+            font-size: 24px;
+            margin: 6px 12px;
+
+        }
+
+        .block1_title {
+
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .block1_paragraph {
+            font-size: 16px;
+            font-weight: 100;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            display: block;
+
+        }
+
+        .img_column {
+            float: left;
+            width: 30%;
+            padding: 22px;
+            margin: auto;
+        }
+
+        .block2 {
+            margin: 100px 35px 60px 60px;
+        }
+
+        .block2_text {
+            text-align: left;
+            font-size: 16px;
+            font-weight: 100;
+            text-align: left;
+            float: left;
+            width: 30%;
+            padding: 18px;
+            display: block;
+        }
+
+
+        #block2_title {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .block3 {
+            display: flex;
+            justify-content: left;
+            align-items: first baseline;
+            flex-direction: column;
+
+        }
+
+        #block3_title {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        #img_b2 {
+            float: right;
+            width: 50%;
+            height: 460px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="landing" id="Landing_page">
+        <div class="nav" id="Topnav">
+            <a href="#logo" id="logo">Logo</a>
+            <div class="menu">
+                <a href="#about">About</a>
+                <a href="#tours">Tours</a>
+                <a href="#top_places">Top Places</a>
+                <a href="#hotels">Hotels</a>
+                <a href="#Map">Map</a>
+            </div>
+            <div class="eng_search">
+                <a href="#language" id="language">Eng</a>
+                <a href="#search" id="search">Search</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="herosection" Herosection>
+
+        <img src="levon-vardanyan-_EpaiWp5yC8-unsplash.jpg" alt="Yerevan">
+        <div class="hero_text">
+            <h1 class="text_hero">Discover</h1>
+            <h1 class="text_hero">Yerevan</h1>
+            <p class="text_hero" id="paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="button_primary">Book a Tour</button>
+        </div>
+    </div>
+
+    <div class="block1">
+        <h2 class="block1_title">Explore the Rose City</h2>
+        <span class="block1_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nunc sit feugiat
+            orci et egestas hendrerit sagittis.
+            Gravida mattis lacus ac mauris feugiat sed. Adipiscing neque ultricies est lobortis nec cursus facilisi amet
+            neque.
+            Ultrices tempus faucibus neque, sed ipsum aliquam dictum morbi non.
+            Metus elementum egestas id cras dictum sed nunc. Quam nisl consequat amet, massa morbi. Augue consectetur at
+            eros, viverra.
+            Lorem dui sit purus enim congue at massa mauris.</span>
+    </div>
+    <div class="img_row">
+        <div class="img_column">
+            <img src="levon-vardanyan-phYeAlPwHrg-unsplash.jpg" alt="Yerevan">
+        </div>
+        <div class="img_column" id="img2">
+            <img src="levon-vardanyan-VE77vEf9jBY-unsplash.jpg" alt="Yerevan">
+        </div>
+        <div class="img_column">
+            <img src="levon-vardanyan-459F68TXqa0-unsplash.jpg" alt="Yerevan">
+        </div>
+    </div>
+
+
+    <div class="block2">
+        <img id="img_b2" src="tigran-shishmanyan-R1qepPVFzx0-unsplash.jpg" alt="Yerevan">
+        <h2 class="block2_text" id="block2_title">Art Lover</h2>
+        <h4 class="subtitle"> Cultural tour</h4>
+        <span class="block2_text" id="paragraph_b_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Dictum viverra adipiscing vitae nibh blandit adipiscing pharetra.
+            Egestas turpis mattis lacus, ultrices posuere eros, dictum sed. Tortor duis venenatis dui libero.
+            Nec integer scelerisque sociis vitae eget eleifend.
+            In quis aliquam id semper sit.
+            Fusce pretium risus, enim commodo et nunc. Ultricies lorem nunc a eleifend odio maecenas sagittis
+            eget.</span>
+        <p class="block2_text">DD/MM/YY</p>
+        <p class="block2_text">XXXX AMD</p>
+        <button class="button_primary">Book a Tour</button>
+        <p id="new_line"> .</p>
+    </div>
+
+    <div class="block3">
+        <h2 class="block2_text" id="block3_title">Extream Lover</h2>
+        <h4 class="subtitle"> Parachute Tour</h4>
+        <span class="block2_text" id="paragraph_b_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Dictum viverra adipiscing vitae nibh blandit adipiscing pharetra.
+            Egestas turpis mattis lacus, ultrices posuere eros, dictum sed. Tortor duis venenatis dui libero.
+            Nec integer scelerisque sociis vitae eget eleifend.
+            In quis aliquam id semper sit.
+            Fusce pretium risus, enim commodo et nunc. Ultricies lorem nunc a eleifend odio maecenas sagittis
+            eget.</span>
+        <p class="block2_text">DD/MM/YY</p>
+        <p class="block2_text">XXXX AMD</p>
+        <button class="button_primary">Book a Tour</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
